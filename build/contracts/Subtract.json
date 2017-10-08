@@ -1,0 +1,64 @@
+{
+  "contract_name": "Subtract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "var1",
+          "type": "uint256"
+        }
+      ],
+      "name": "subtract",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "total",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "var1",
+          "type": "uint256"
+        },
+        {
+          "name": "var2",
+          "type": "uint256"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b5b5b5b5b60e9806100226000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631dc05f17811460505780632ddbd13a146065578063771602f7146087575b600080fd5b3415605a57600080fd5b6063600435609f565b005b3415606f57600080fd5b607560ac565b60405190815260200160405180910390f35b3415609157600080fd5b606360043560243560b2565b005b6000805482900390555b50565b60005481565b8181016000555b50505600a165627a7a723058206ebee5273440dd7c36554dcf5a3bcd4f214ce00af1c92debb0d413ba1a79abbe0029",
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x671af578a34692707dcd7fac485fc240af2105eb",
+      "updated_at": 1507421573282
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1507421573282
+}

@@ -1,0 +1,51 @@
+{
+  "contract_name": "Add",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "total",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "var1",
+          "type": "uint256"
+        },
+        {
+          "name": "var2",
+          "type": "uint256"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b5b5b60bd806100206000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632ddbd13a81146046578063771602f7146068575b600080fd5b3415605057600080fd5b60566080565b60405190815260200160405180910390f35b3415607257600080fd5b607e6004356024356086565b005b60005481565b8181016000555b50505600a165627a7a72305820974857c7b2e2f1d72e41f14672f83b3b29e32c74cbd95ff4b29f5f5b3b98aa310029",
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x5d2bf05d8b49fed2b8737df21e200d68140f7be9",
+      "updated_at": 1507421573283
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1507421573283
+}
